@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bstech.khamarapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MilkInfo.CowSearch">
+
+             <!--<intent-filter> -->
+             <!--<action android:name="android.intent.action.MAIN" /> -->
+             <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+             <!--</intent-filter>-->
+
+        </activity>
+        <activity android:name=".MilkInfo.Form" />
+        <activity android:name=".MilkInfo.View" />
+        <activity android:name=".ReproductionInfo.AIForm" />
+        <activity android:name=".ReproductionInfo.Form" />
+        <activity android:name=".ReproductionInfo.View" />
+        <activity
+            android:name=".CowInfo.Form"
+            android:label="@string/menu2_bn"
+            android:parentActivityName=".CowInfo.List" />
+        <activity
+            android:name=".ReproductionInfo.List"
+            android:parentActivityName=".CowInfo.List"
+            android:theme="@style/AppThemeCustomized" />
+        <activity
+            android:name=".CowInfo.List"
+            android:label="@string/menu2_bn"
+            android:parentActivityName=".MenuActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".GeneralInfo.Form"
+            android:parentActivityName=".GeneralInfo.View">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name=".GeneralInfo.View"
+            android:label="@string/menu1_bn"
+            android:parentActivityName=".GeneralInfo.YearMonth">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".GeneralInfo.YearMonth"
+            android:label="@string/menu1_bn"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppThemeCustomized">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

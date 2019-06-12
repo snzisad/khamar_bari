@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">খামার বাড়ি</string>
+
+    <!--Strings in bangla-->
+
+    <string name="menu1_bn">সাধারণ তথ্য সংরক্ষন </string>
+    <string name="menu2_bn">গাভী তথ্য সংরক্ষন </string>
+    <string name="menu3_bn">দুধ উৎপাদন তথ্য সংরক্ষন </string>
+    <string name="menu4_bn">বিভিন্ন রিপোর্টসমূহ </string>
+    <string name="menu5_bn">আজকের এলার্মসমূহ </string>
+    <string name="delete_bn">ডিলিট করুন</string>
+
+    <string name="id_bn">আইডিঃ </string>
+    <string name="pic_bn">ছবিঃ </string>
+    <string name="bdate_bn">জন্ম তারিখঃ </string>
+    <string name="species_bn">জাতঃ </string>
+    <string name="date_bn">তারিখঃ </string>
+    <string name="time_bn">সময়ঃ </string>
+    <string name="change_bn">পরিবর্তন করুন</string>
+
+    <string name="general_info_bn">সাধারণ তথ্য</string>
+    <string name="total_child_bn">বাচ্চাদানের সংখ্যাঃ </string>
+    <string name="prag_detect_bn">গর্ভ নির্ণয়ঃ </string>
+    <string name="heat_bn">গরম হওয়া</string>
+    <string name="ai_bn">কৃত্রিম প্রজনন</string>
+    <string name="bull_bn">ষাঁড়</string>
+    <string name="birth_weight_bn">জন্মের সময় ওজনঃ </string>
+    <string name="gender_bn">লিঙ্গঃ </string>
+    <string name="repro_problem_bn">প্রজনন স্বাস্থ্য সমস্যা</string>
+    <string name="semean_date_bn">সিমেন প্রস্তুতের তারিখঃ </string>
+    <string name="no_of_child_bn">বাচ্চাদানের সংখ্যাঃ </string>
+    <string name="heat_date_bn">গরম হওয়ার তারিখঃ </string>
+    <string name="last_delivery_date_bn">শেষ প্রসবের তারিখঃ </string>
+    <string name="next_delivery_date_bn">প্রসবের সম্ভাব্য তারিখঃ </string>
+
+    <string name="reproduction_info_title">প্রজননের তথ্য দেখতে প্রেস করুন</string>
+    <string name="details_info_title">বিস্তারিত দেখতে প্রেস করুন</string>
+    <string name="date_select_hint_bn">তারিখ নির্বাচনের জন্য এখানে চাপুন</string>
+    <string name="time_select_hint_bn">সময় নির্বাচনের জন্য এখানে চাপুন</string>
+
+    <string name="camera_bn">ক্যামেরা</string>
+    <string name="gallery_bn">গ্যালারি</string>
+
+    <string name="year_select_title_bn">সাল নির্বাচন করুন</string>
+    <string name="month_select_title_bn">মাস নির্বাচন করুন</string>
+    <string name="view_info_button_title_bn">তথ্য দেখুন</string>
+    <string name="update_info_button_title_bn">তথ্য পরিবর্তন করুন</string>
+    <string name="done_button_title_bn">ঠিক আছে</string>
+    <string name="click_to_add_title_bn">যুক্ত করার জন্য এখানে প্রেস করুন</string>
+
+
+    <string name="title_total_pet">মোট গবাদি প্রাণির সংখ্যাঃ </string>
+    <string name="title_prag_milk">গর্ভবতী ও দুগ্ধবতীঃ </string>
+    <string name="title_prag_dry">গর্ভবতী ও শুষ্কঃ </string>
+    <string name="title_bokna">বকনাঃ </string>
+    <string name="title_sell_bachur">ববি কাফ/বিক্রিযোগ্য বাছুরঃ </string>
+    <string name="title_new_child">নব জাতকঃ </string>
+    <string name="title_food_quantity">খাদ্য ক্রয়ের পরিমানঃ </string>
+    <string name="title_roughage">রাফেজঃ </string>
+    <string name="title_granule">দানাদারঃ </string>
+    <string name="title_total_milk_amount">দুধের পরিমানঃ </string>
+    <string name="title_total_milk">মোট দুধ উৎপাদনঃ </string>
+    <string name="title_krrimi_nashok_applied">কৃমি নাশক প্রয়োগঃ </string>
+    <string name="title_yes">হ্যাঁঃ </string>
+    <string name="title_no">নাঃ </string>
+    <string name="title_inject_name">টিকার নামঃ </string>
+    <string name="title_total_infected_pet">রোগাক্রান্ত গবাদি প্রাণির সংখ্যাঃ </string>
+    <string name="title_total_new_pet">নতুন গবাদি প্রাণির সংখ্যাঃ </string>
+    <string name="title_cow">গাভীঃ </string>
+    <string name="title_bachur">বাছুরঃ </string>
+    <string name="title_others">অন্যান্যঃ </string>
+    <string name="litre_bn">লিটার</string>
+
+    <string-array name="year">
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>গাভী</item>
+        <item>ষাঁড়</item>
+    </string-array>
+
+    <string-array name="month_title_bn">
+        <item>জানুয়ারি</item>
+        <item>ফেব্রুয়ারি</item>
+        <item>মার্চ</item>
+        <item>এপ্রিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলাই</item>
+        <item>আগস্ট</item>
+        <item>সেপ্টেম্বর</item>
+        <item>অক্টোবর</item>
+        <item>নভেম্বর</item>
+        <item>ডিসেম্বর</item>
+    </string-array>
+
+    <string-array name="species_title">
+        <item>Jersey</item>
+        <item>Sahiwal</item>
+        <item>Holstein-Friesian</item>
+        <item>Pabna cattle</item>
+        <item>Indigenous</item>
+        <item>Red Chittagong</item>
+        <item>Sindhi</item>
+        <item>Hariana</item>
+        <item>Munshiganj Cattle</item>
+        <item>Cross</item>
+    </string-array>
+
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="transaction_image">ImageTransaction</string>
+    <string name="transaction_layout">LayoutTransaction</string>
+    <string name="transaction_id">IDTransaction</string>
+    <string name="lorem_ipsum">Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
+
+
+</resources>
